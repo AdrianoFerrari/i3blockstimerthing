@@ -10,7 +10,7 @@ from os import getenv
 from typing import Tuple
 
 filename = getenv("I3BLOCKSTIMERTHING_FILE", "/tmp/i3blockstimerthing.txt")
-button = getenv('button') 
+button = getenv("BLOCK_BUTTON")
 
 RUNNING = "running"
 PAUSED = "paused"
